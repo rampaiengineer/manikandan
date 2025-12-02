@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { products } from "@/data/products";
 import { ShopFilters } from "@/components/ShopFilters";
 
@@ -25,7 +26,13 @@ export default function ShopPage() {
           </p>
         </header>
 
-        <ShopFilters allProducts={products} />
+        <Suspense
+          fallback={
+            <p className="text-xs text-neutral-500">Loading products…</p>
+          }
+        >
+          <ShopFilters allProducts={products} />
+        </Suspense>
       </div>
     </div>
   );

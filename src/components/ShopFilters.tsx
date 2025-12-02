@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ChevronDown, Search } from "lucide-react";
-import { useSearchParams } from "next/navigation";
 import type { Product, MetalType } from "@/types/product";
 
 interface ShopFiltersProps {
@@ -141,16 +140,24 @@ function SearchableSelect({
 }
 
 export function ShopFilters({ allProducts }: ShopFiltersProps) {
-  const searchParams = useSearchParams();
-  const initialQuery = searchParams.get("query") ?? "";
-
-  const [query, setQuery] = useState(initialQuery);
+  const [query, setQuery] = useState("");
   const [metalFilter, setMetalFilter] = useState<MetalFilter>("all");
   const [categoryFilter, setCategoryFilter] = useState<string>("all");
   const [priceFilter, setPriceFilter] = useState<PriceFilter>("all");
   const [heritageOnly, setHeritageOnly] = useState(false);
   const [pageSize, setPageSize] = useState<number>(24);
   const [page, setPage] = useState<number>(1);
+
+  // Initialize query state from the current URL's search params on the client
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get("query") ?? "";
+    if (initialQuery) {
+      setQuery(initialQuery);
+    }
+  }, []);
 
   const categories = useMemo(
     () => Array.from(new Set(allProducts.map((p) => p.category))).sort(),
@@ -306,7 +313,7 @@ export function ShopFilters({ allProducts }: ShopFiltersProps) {
         <button
           type="button"
           onClick={() => {
-            setQuery(initialQuery);
+            setQuery("");
             setMetalFilter("all");
             setCategoryFilter("all");
             setPriceFilter("all");

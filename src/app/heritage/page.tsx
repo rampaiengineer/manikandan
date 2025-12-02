@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { getHeritageProducts } from "@/data/products";
 import { ShopFilters } from "@/components/ShopFilters";
 
@@ -28,7 +29,13 @@ export default function HeritagePage() {
           </p>
         </header>
 
-        <ShopFilters allProducts={heritageProducts} />
+        <Suspense
+          fallback={
+            <p className="text-xs text-neutral-500">Loading heritage sets…</p>
+          }
+        >
+          <ShopFilters allProducts={heritageProducts} />
+        </Suspense>
       </div>
     </div>
   );
