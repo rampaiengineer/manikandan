@@ -1,0 +1,14 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Information architecture and navigation">
+  <rect x="8" y="8" width="104" height="104" rx="24" fill="#020617" />
+  <rect x="34" y="30" width="52" height="16" rx="5" fill="#0f172a" stroke="#c9a64d" stroke-width="1.5" />
+  <rect x="22" y="60" width="28" height="16" rx="5" fill="#111827" stroke="#4b5563" stroke-width="1.2" />
+  <rect x="46" y="60" width="28" height="16" rx="5" fill="#111827" stroke="#4b5563" stroke-width="1.2" />
+  <rect x="70" y="60" width="28" height="16" rx="5" fill="#111827" stroke="#4b5563" stroke-width="1.2" />
+  <line x1="42" y1="46" x2="36" y2="60" stroke="#e5e7eb" stroke-width="2" stroke-linecap="round" />
+  <line x1="60" y1="46" x2="60" y2="60" stroke="#e5e7eb" stroke-width="2" stroke-linecap="round" />
+  <line x1="78" y1="46" x2="84" y2="60" stroke="#e5e7eb" stroke-width="2" stroke-linecap="round" />
+  <circle cx="60" cy="90" r="4" fill="#e1c16e" />
+  <line x1="60" y1="76" x2="60" y2="86" stroke="#e1c16e" stroke-width="2" stroke-linecap="round" />
+</svg>
+
+

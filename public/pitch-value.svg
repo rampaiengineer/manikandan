@@ -1,0 +1,17 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Value proposition and trust">
+  <defs>
+    <linearGradient id="valueGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9a64d" />
+      <stop offset="100%" stop-color="#b87333" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="24" fill="#111827" />
+  <path d="M60 30 L78 36 L82 56c-2 14-10 24-22 30-12-6-20-16-22-30l4-20z"
+        fill="none" stroke="url(#valueGradient)" stroke-width="2.5" />
+  <path d="M60 42c2.5-3 6-5 9.5-5 4.5 0 8.5 3.4 8.5 8.8 0 8.6-10.5 16-18 19.7C52.5 62 42 54.4 42 45.8 42 40.4 46 37 50.5 37c3.5 0 7 2 9.5 5z"
+        fill="url(#valueGradient)" />
+  <circle cx="60" cy="86" r="6" fill="#16a34a" />
+  <path d="M58 87.5l2 2 4-4" fill="none" stroke="#ecfdf5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+
+

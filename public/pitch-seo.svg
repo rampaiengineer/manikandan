@@ -1,0 +1,20 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SEO and AEO strategy">
+  <defs>
+    <linearGradient id="seoGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b1e2d" />
+      <stop offset="100%" stop-color="#c9a64d" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="24" fill="#111827" />
+  <circle cx="52" cy="52" r="22" fill="none" stroke="url(#seoGradient)" stroke-width="3" />
+  <path d="M42 58 L47 52 L53 56 L62 46" fill="none" stroke="#e5e7eb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="52" cy="52" r="4" fill="#e5e7eb" />
+  <line x1="66" y1="66" x2="84" y2="84" stroke="#facc15" stroke-width="4" stroke-linecap="round" />
+  <circle cx="52" cy="52" r="18" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-dasharray="3 5" />
+  <rect x="30" y="78" width="52" height="10" rx="5" fill="#1f2937" />
+  <rect x="32" y="80" width="20" height="6" rx="3" fill="#16a34a" />
+  <rect x="54" y="80" width="10" height="6" rx="3" fill="#4b5563" />
+  <rect x="66" y="80" width="10" height="6" rx="3" fill="#4b5563" />
+</svg>
+
+

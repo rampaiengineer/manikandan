@@ -1,0 +1,17 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vision and growth">
+  <defs>
+    <linearGradient id="visionGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9a64d" />
+      <stop offset="100%" stop-color="#b87333" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="24" fill="#1a1a1a" />
+  <circle cx="60" cy="60" r="34" fill="none" stroke="url(#visionGradient)" stroke-width="2.5" />
+  <path d="M34 76 L52 56 L66 64 L86 40" fill="none" stroke="#e1c16e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M78 38 H90 V50" fill="none" stroke="#e1c16e" stroke-width="3" stroke-linecap="round" />
+  <circle cx="52" cy="56" r="3" fill="#e1c16e" />
+  <circle cx="66" cy="64" r="3" fill="#e1c16e" />
+  <circle cx="86" cy="40" r="3" fill="#e1c16e" />
+</svg>
+
+

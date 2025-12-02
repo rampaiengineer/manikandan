@@ -1,0 +1,24 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Market trends and opportunity">
+  <defs>
+    <linearGradient id="trendGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9a64d" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="24" fill="#020617" />
+  <rect x="30" y="70" width="10" height="18" rx="2" fill="#1d4ed8" />
+  <rect x="46" y="62" width="10" height="26" rx="2" fill="#22c55e" />
+  <rect x="62" y="54" width="10" height="34" rx="2" fill="#f97316" />
+  <rect x="78" y="46" width="10" height="42" rx="2" fill="#e5e7eb" />
+  <path d="M28 58 L44 52 L60 46 L78 40" fill="none" stroke="url(#trendGradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="28" cy="58" r="3" fill="#c9a64d" />
+  <circle cx="44" cy="52" r="3" fill="#c9a64d" />
+  <circle cx="60" cy="46" r="3" fill="#c9a64d" />
+  <circle cx="78" cy="40" r="3" fill="#c9a64d" />
+  <circle cx="38" cy="32" r="8" fill="none" stroke="#e5e7eb" stroke-width="1.5" />
+  <path d="M34 32a4 4 0 0 1 8 0" fill="none" stroke="#e5e7eb" stroke-width="1.5" stroke-linecap="round" />
+  <circle cx="36" cy="31" r="1.5" fill="#e5e7eb" />
+  <circle cx="40" cy="31" r="1.5" fill="#e5e7eb" />
+</svg>
+
+
